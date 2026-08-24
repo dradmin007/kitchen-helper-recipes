@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-08-24",
+  "recipes": [
+    {
+      "id": "cutlets",
+      "name": "Котлеты жареные",
+      "category": "Мясо",
+      "totalTime": "15 минут",
+      "description": "Сочные домашние котлеты на сковороде",
+      "file": "cutlets.json"
+    },
+    {
+      "id": "chicken",
+      "name": "Курица вареная",
+      "category": "Мясо",
+      "totalTime": "40 минут",
+      "description": "Нежное куриное мясо для салатов и супов",
+      "file": "chicken.json"
+    },
+    {
+      "id": "brown_rice",
+      "name": "Рис бурый",
+      "category": "Гарниры",
+      "totalTime": "35 минут",
+      "description": "Полезный рассыпчатый гарнир",
+      "file": "brown_rice.json"
+    }
+  ]
+}

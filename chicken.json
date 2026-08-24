@@ -1,0 +1,73 @@
+{
+  "id": "chicken",
+  "name": "Курица вареная",
+  "category": "Мясо",
+  "totalTime": "40 минут",
+  "ingredients": [
+    "Курица (грудка или бедра) — 500 г",
+    "Вода — 2 л",
+    "Лук репчатый — 1 шт",
+    "Морковь — 1 шт",
+    "Лавровый лист — 2 шт",
+    "Перец горошком — 5 шт",
+    "Соль — 1 ст.л."
+  ],
+  "steps": [
+    {
+      "instruction": "Промойте курицу, положите в кастрюлю, залейте холодной водой",
+      "durationMs": 0,
+      "autoAdvanceDelay": 0,
+      "isPreparation": true,
+      "nextStepHint": "Доведение до кипения"
+    },
+    {
+      "instruction": "Доведите до кипения на сильном огне",
+      "durationMs": 300000,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Снятие пены"
+    },
+    {
+      "instruction": "Снимите пену шумовкой",
+      "durationMs": 0,
+      "autoAdvanceDelay": 20,
+      "isPreparation": false,
+      "nextStepHint": "Добавление овощей и специй"
+    },
+    {
+      "instruction": "Добавьте очищенные лук и морковь, лавровый лист, перец горошком",
+      "durationMs": 0,
+      "autoAdvanceDelay": 15,
+      "isPreparation": false,
+      "nextStepHint": "Варка 25 минут"
+    },
+    {
+      "instruction": "Варите на медленном огне под крышкой",
+      "durationMs": 1500000,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Добавление соли"
+    },
+    {
+      "instruction": "Добавьте соль, перемешайте",
+      "durationMs": 0,
+      "autoAdvanceDelay": 15,
+      "isPreparation": false,
+      "nextStepHint": "Финальная варка 5 минут"
+    },
+    {
+      "instruction": "Варите ещё 5 минут",
+      "durationMs": 300000,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Готово!"
+    },
+    {
+      "instruction": "Курица готова! Можно использовать для салатов, супов или подавать с гарниром",
+      "durationMs": 0,
+      "autoAdvanceDelay": 0,
+      "isPreparation": false,
+      "nextStepHint": ""
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "cutlets",
+  "name": "Котлеты жареные",
+  "category": "Мясо",
+  "totalTime": "15 минут",
+  "ingredients": [
+    "Фарш свиной — 500 г",
+    "Лук репчатый — 1 шт",
+    "Чеснок — 2 зубчика",
+    "Яйцо — 1 шт",
+    "Соль — 1 ч.л.",
+    "Перец черный молотый — по вкусу",
+    "Масло подсолнечное — 2 ст.л."
+  ],
+  "steps": [
+    {
+      "instruction": "Поставьте сковороду на плиту, смажьте подсолнечным маслом и разогрейте на среднем огне",
+      "durationMs": 0,
+      "autoAdvanceDelay": 0,
+      "isPreparation": true,
+      "nextStepHint": "Обжарка первой стороны 2 минуты"
+    },
+    {
+      "instruction": "Выложите котлеты и жарьте первую сторону",
+      "durationMs": 120000,
+      "autoAdvanceDelay": 5,
+      "isPreparation": false,
+      "nextStepHint": "Переверните котлеты, накройте крышкой"
+    },
+    {
+      "instruction": "Переверните котлеты, накройте крышкой",
+      "durationMs": 0,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Обжарка второй стороны 2 минуты"
+    },
+    {
+      "instruction": "Жарьте вторую сторону под крышкой",
+      "durationMs": 120000,
+      "autoAdvanceDelay": 5,
+      "isPreparation": false,
+      "nextStepHint": "Переверните, накройте крышкой"
+    },
+    {
+      "instruction": "Переверните котлеты, накройте крышкой, убавьте огонь",
+      "durationMs": 0,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Томление 1 минута"
+    },
+    {
+      "instruction": "Томите котлеты под крышкой на медленном огне",
+      "durationMs": 60000,
+      "autoAdvanceDelay": 5,
+      "isPreparation": false,
+      "nextStepHint": "Переверните, накройте крышкой"
+    },
+    {
+      "instruction": "Переверните котлеты, накройте крышкой",
+      "durationMs": 0,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Финальное томление 1 минута"
+    },
+    {
+      "instruction": "Томите котлеты последнюю минуту",
+      "durationMs": 60000,
+      "autoAdvanceDelay": 5,
+      "isPreparation": false,
+      "nextStepHint": "Проверка готовности"
+    },
+    {
+      "instruction": "Котлеты готовы! Проверьте прозрачность сока — он должен быть светлым",
+      "durationMs": 0,
+      "autoAdvanceDelay": 0,
+      "isPreparation": false,
+      "nextStepHint": ""
+    }
+  ]
+}

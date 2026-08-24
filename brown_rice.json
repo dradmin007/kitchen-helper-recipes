@@ -1,0 +1,56 @@
+{
+  "id": "brown_rice",
+  "name": "Рис бурый",
+  "category": "Гарниры",
+  "totalTime": "35 минут",
+  "ingredients": [
+    "Рис бурый — 1 стакан (200 мл)",
+    "Вода — 2.5 стакана",
+    "Соль — 0.5 ч.л.",
+    "Масло сливочное — 30 г"
+  ],
+  "steps": [
+    {
+      "instruction": "Тщательно промойте рис в холодной воде 3-4 раза",
+      "durationMs": 0,
+      "autoAdvanceDelay": 0,
+      "isPreparation": true,
+      "nextStepHint": "Доведение до кипения"
+    },
+    {
+      "instruction": "Залейте рис водой (2.5 стакана), доведите до кипения",
+      "durationMs": 300000,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Варка 25 минут"
+    },
+    {
+      "instruction": "Убавьте огонь до минимального, варите под крышкой",
+      "durationMs": 1500000,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Добавление соли и масла"
+    },
+    {
+      "instruction": "Добавьте соль и сливочное масло, аккуратно перемешайте",
+      "durationMs": 0,
+      "autoAdvanceDelay": 15,
+      "isPreparation": false,
+      "nextStepHint": "Настаивание 5 минут"
+    },
+    {
+      "instruction": "Снимите с огня, оставьте под крышкой настояться",
+      "durationMs": 300000,
+      "autoAdvanceDelay": 10,
+      "isPreparation": false,
+      "nextStepHint": "Готово!"
+    },
+    {
+      "instruction": "Рис готов! Рассыпчатый и ароматный",
+      "durationMs": 0,
+      "autoAdvanceDelay": 0,
+      "isPreparation": false,
+      "nextStepHint": ""
+    }
+  ]
+}
